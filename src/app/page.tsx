@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import TerminalPreview from '@/components/TerminalPreview';
 import InstallBlock from '@/components/InstallBlock';
+import CopyAddress from '@/components/CopyAddress';
 
 export default function Home() {
   return (
@@ -30,9 +31,13 @@ export default function Home() {
             </h1>
           </div>
 
-          <p className="max-w-xl mb-12 text-rs-muted text-sm leading-relaxed">
+          <p className="max-w-xl mb-8 text-rs-muted text-sm leading-relaxed">
             Reliable data and tools for AI agents on Robinhood Chain. Set a budget, validate responses, and switch providers when a request fails.
           </p>
+
+          <div className="mb-12">
+            <CopyAddress />
+          </div>
 
           <div className="flex flex-col md:flex-row md:items-center gap-8">
             <a 
@@ -248,14 +253,14 @@ robinhood-public-2
               <div className="text-rs-dim text-xs tracking-wider mb-4">CLI</div>
               <div className="bg-rs-black border border-rs-border p-6 overflow-x-auto">
                 <pre className="text-rs-muted text-sm font-mono leading-relaxed">
-{`$ relaystride balance 0x742d...2bD18 --json
+{`$ relaystride balance 0x3e76...16df --json
 
 {
   "requestId": "req_01H...",
   "capability": "balance",
   "network": "robinhood-mainnet",
   "result": {
-    "address": "0x742d...2bD18",
+    "address": "0x3e76...16df",
     "balance": "1423700000000000000",
     "formatted": "1.4237 ETH"
   },

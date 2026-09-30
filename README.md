@@ -4,6 +4,8 @@ Reliable service router for AI agents on Robinhood Chain.
 
 One request. A reliable route.
 
+**CA:** `0xd44f2212a899d4eea62a46f9c629570147f47a14`
+
 ---
 
 ## What it does

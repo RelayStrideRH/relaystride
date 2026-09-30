@@ -78,7 +78,7 @@ async function formatHealth(): Promise<string> {
 
 async function formatBalance(address?: string): Promise<string> {
   if (!address) {
-    return 'Usage: balance <address>\nExample: balance 0x742d35Cc6634C0532925a3b844Bc9e7595f2bD18';
+    return 'Usage: balance <address>\nExample: balance 0x3e76ffc48a7593ee429f92ba9ee424a3e09216df';
   }
   
   const result = await getBalance(address);

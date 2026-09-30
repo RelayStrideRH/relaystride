@@ -1,15 +1,14 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Navigation() {
   return (
     <header className="sticky top-0 z-50 h-14 flex items-center justify-between px-6 border-b border-rs-border bg-rs-black font-mono">
-      <div className="flex items-center gap-3">
-        <Image src="/icon.png" alt="RelayStride" width={28} height={28} className="block" priority />
+      <Link href="/" className="flex items-center gap-3">
+        <img src="/icon.png" alt="RelayStride" width={28} height={28} />
         <span className="text-white text-sm tracking-widest font-bold">RELAYSTRIDE_</span>
-      </div>
-      
-      <nav className="hidden md:flex items-center gap-8">
+      </Link>
+
+      <nav className="hidden lg:flex items-center gap-8">
         <Link href="/" className="text-rs-muted text-xs tracking-wider uppercase hover:text-white transition-colors">
           <span className="text-rs-dim mr-2">01</span>Home
         </Link>
