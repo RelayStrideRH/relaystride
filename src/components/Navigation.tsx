@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <header className="sticky top-0 z-50 h-14 flex items-center justify-between px-6 border-b border-rs-border bg-rs-black font-mono">
       <div className="flex items-center gap-2">
-        <Image src="/logo.svg" alt="RelayStride" width={24} height={24} />
+        <Image src="/icon.png" alt="RelayStride" width={28} height={28} />
         <span className="text-white text-sm tracking-widest font-bold">RELAYSTRIDE_</span>
       </div>
       

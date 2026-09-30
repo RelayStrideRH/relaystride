@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   description:
     'Reliable data and tools for AI agents on Robinhood Chain. Set a budget, validate responses, and switch providers when a request fails.',
   keywords: ['AI agents', 'Robinhood Chain', 'service router', 'provider routing', 'blockchain'],
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
+  },
 };
 
 export default function RootLayout({
