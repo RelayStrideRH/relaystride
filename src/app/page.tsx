@@ -45,7 +45,7 @@ export default function Home() {
               <div className="text-rs-muted text-xs tracking-wider uppercase mb-2">
                 Install CLI
               </div>
-              <InstallBlock command="git clone https://github.com/RelayStrideRH/relaystride.git && cd relaystride && npm install" />
+              <InstallBlock command="git clone https://github.com/RelayStrideRH/relaystride.git" />
             </div>
           </div>
         </div>

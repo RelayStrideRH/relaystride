@@ -11,7 +11,7 @@ export default function Footer() {
           Read-only MVP — v0.1.0
         </div>
         <div className="flex gap-4">
-          <a href="https://github.com/RelayStrideRH/relaystride" target="_blank" rel="noopener noreferrer" className="text-rs-muted text-xs hover:text-white">
+          <a href="https://github.com/RelayStrideRH" target="_blank" rel="noopener noreferrer" className="text-rs-muted text-xs hover:text-white">
             GitHub ↗
           </a>
           <Link href="/docs" className="text-rs-muted text-xs hover:text-white">

@@ -15,8 +15,14 @@ export const metadata: Metadata = {
     'Reliable data and tools for AI agents on Robinhood Chain. Set a budget, validate responses, and switch providers when a request fails.',
   keywords: ['AI agents', 'Robinhood Chain', 'service router', 'provider routing', 'blockchain'],
   icons: {
-    icon: '/icon.png',
-    apple: '/icon.png',
+    icon: [
+      { url: '/icon.png', type: 'image/png', sizes: '400x400' },
+      { url: '/favicon.png', type: 'image/png', sizes: '400x400' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', type: 'image/png', sizes: '400x400' },
+    ],
+    shortcut: '/icon.png',
   },
 };
 
